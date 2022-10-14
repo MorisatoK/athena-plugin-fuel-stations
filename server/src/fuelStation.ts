@@ -1,16 +1,14 @@
 import * as alt from 'alt-server';
-import { getClosestEntity } from '../../../../server/utility/vector';
 import { VIEW_EVENTS_FUEL_TRIGGER } from '../../shared/events';
 import { LOCALE_FUEL_STATIONS } from '../../shared/locales';
-import { CurrencyTypes } from '../../../../shared/enums/currency';
-import { Vehicle_Behavior } from '../../../../shared/enums/vehicle';
-import { JobTrigger } from '../../../../shared/interfaces/jobTrigger';
-import { isFlagEnabled } from '../../../../shared/utility/flags';
-import { distance2d } from '../../../../shared/utility/vector';
+import { Athena } from '@AthenaServer/api/athena';
+import { CurrencyTypes } from '@AthenaShared/enums/currency';
+import { Vehicle_Behavior } from '@AthenaShared/enums/vehicle';
+import { JobTrigger } from '@AthenaShared/interfaces/jobTrigger';
+import { isFlagEnabled } from '@AthenaShared/utility/flags';
+import { distance2d } from '@AthenaShared/utility/vector';
 import { FUEL_CONFIG } from './config';
 import stations from './stations';
-import { Athena } from '../../../../server/api/athena';
-import { deepCloneObject } from '../../../../shared/utility/deepCopy';
 
 const maximumFuel = 100;
 const fuelInfo: { [playerID: string]: FuelStatus } = {};
@@ -72,7 +70,13 @@ export class FuelStationSystem {
             delete fuelInfo[player.id];
         }
 
-        const closestVehicle = getClosestEntity<alt.Vehicle>(player.pos, player.rot, alt.Vehicle.all, 2, true);
+        const closestVehicle = Athena.utility.vector.getClosestEntity<alt.Vehicle>(
+            player.pos,
+            player.rot,
+            alt.Vehicle.all,
+            2,
+            true,
+        );
         if (!closestVehicle) {
             Athena.player.emit.notification(player, LOCALE_FUEL_STATIONS.FUEL_TOO_FAR_FROM_PUMP);
             return;
@@ -147,7 +151,7 @@ export class FuelStationSystem {
 
         LastTriggers[player.id] = trigger;
         alt.log('Emit VIEW_EVENTS_FUEL_TRIGGER.OPEN to client ' + player.data.name);
-        alt.emitClient(player, VIEW_EVENTS_FUEL_TRIGGER.OPEN, deepCloneObject(trigger));
+        alt.emitClient(player, VIEW_EVENTS_FUEL_TRIGGER.OPEN, Athena.utility.deepCloneObject(trigger));
     }
 
     /**

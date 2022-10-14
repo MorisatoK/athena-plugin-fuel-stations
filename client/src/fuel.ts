@@ -1,12 +1,11 @@
 import * as alt from 'alt-client';
 import { VIEW_EVENTS_FUEL_TRIGGER } from '../../shared/events';
-import { SYSTEM_EVENTS } from '../../../../shared/enums/system';
-import { JobTrigger } from '../../../../shared/interfaces/jobTrigger';
-import { LOCALE_KEYS } from '../../../../shared/locale/languages/keys';
-import { LocaleController } from '../../../../shared/locale/locale';
-import { WebViewController } from '../../../../client/extensions/view2';
-import ViewModel from '../../../../client/models/viewModel';
-import { isAnyMenuOpen } from '../../../../client/utility/menus';
+import { JobTrigger } from '@AthenaShared/interfaces/jobTrigger';
+import { LOCALE_KEYS } from '@AthenaShared/locale/languages/keys';
+import { LocaleController } from '@AthenaShared/locale/locale';
+import { WebViewController } from '@AthenaClient/extensions/view2';
+import ViewModel from '@AthenaClient/models/viewModel';
+import { isAnyMenuOpen } from '@AthenaClient/utility/menus';
 
 const PAGE_NAME = 'Fuel';
 let trigger: JobTrigger;
