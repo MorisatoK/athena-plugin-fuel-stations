@@ -3,7 +3,7 @@ export default [
         x: 172.333359,
         y: 6603.63574,
         z: 31.0625,
-        isBlip: true,
+        isBlip: false,
     },
     {
         x: 179.674652,
@@ -21,7 +21,7 @@ export default [
         x: 156.14325,
         y: 6629.073,
         z: 30.80008,
-        isBlip: true,
+        isBlip: false,
     },
     {
         x: 154.46286,
@@ -33,7 +33,7 @@ export default [
         x: -91.29045,
         y: 6422.537,
         z: 30.6434937,
-        isBlip: true,
+        isBlip: false,
     },
     {
         x: -97.06087,
@@ -45,7 +45,7 @@ export default [
         x: 1701.72437,
         y: 6416.483,
         z: 31.76001,
-        isBlip: true,
+        isBlip: false,
     },
     {
         x: 1697.75659,
@@ -63,7 +63,7 @@ export default [
         x: 1684.59119,
         y: 4931.65527,
         z: 41.2271652,
-        isBlip: true,
+        isBlip: false,
     },
     {
         x: 1690.09485,
@@ -75,7 +75,7 @@ export default [
         x: -2551.39624,
         y: 2327.11548,
         z: 32.2469177,
-        isBlip: true,
+        isBlip: false,
     },
     {
         x: -2558.02148,
@@ -111,13 +111,13 @@ export default [
         x: 2539.79443,
         y: 2594.80786,
         z: 36.95572,
-        isBlip: true,
+        isBlip: false,
     },
     {
         x: 2678.513,
         y: 3262.337,
         z: 54.39086,
-        isBlip: true,
+        isBlip: false,
     },
     {
         x: 2680.90234,
@@ -129,7 +129,7 @@ export default [
         x: 1786.07983,
         y: 3329.85352,
         z: 40.4119453,
-        isBlip: true,
+        isBlip: false,
     },
     {
         x: 1785.03247,
@@ -141,7 +141,7 @@ export default [
         x: 2009.25439,
         y: 3776.77344,
         z: 31.3984642,
-        isBlip: true,
+        isBlip: false,
     },
     {
         x: 2001.54688,
@@ -165,7 +165,7 @@ export default [
         x: 264.976318,
         y: 2607.17773,
         z: 43.98323,
-        isBlip: true,
+        isBlip: false,
     },
     {
         x: 263.082581,
@@ -177,7 +177,7 @@ export default [
         x: 1035.44238,
         y: 2667.904,
         z: 38.70319,
-        isBlip: true,
+        isBlip: false,
     },
     {
         x: 1035.4425,
@@ -201,7 +201,7 @@ export default [
         x: 1209.58154,
         y: 2658.35156,
         z: 36.89955,
-        isBlip: true,
+        isBlip: false,
     },
     {
         x: 1208.50977,
@@ -219,7 +219,7 @@ export default [
         x: 50.305706,
         y: 2778.53467,
         z: 57.0414,
-        isBlip: true,
+        isBlip: false,
     },
     {
         x: 48.9130974,
@@ -231,7 +231,7 @@ export default [
         x: -1795.93445,
         y: 811.9636,
         z: 137.690216,
-        isBlip: true,
+        isBlip: false,
     },
     {
         x: -1790.83875,
@@ -267,7 +267,7 @@ export default [
         x: 612.432251,
         y: 263.835754,
         z: 102.269516,
-        isBlip: true,
+        isBlip: false,
     },
     {
         x: 612.421,
@@ -303,7 +303,7 @@ export default [
         x: 2581.17358,
         y: 364.384735,
         z: 107.650009,
-        isBlip: true,
+        isBlip: false,
     },
     {
         x: 2580.934,
@@ -339,7 +339,7 @@ export default [
         x: 1246.44226,
         y: -1481.99976,
         z: 33.8788452,
-        isBlip: true,
+        isBlip: false,
     },
     {
         x: 1246.219,
@@ -351,7 +351,7 @@ export default [
         x: 1204.19531,
         y: -1401.03369,
         z: 34.38496,
-        isBlip: true,
+        isBlip: false,
     },
     {
         x: 1207.06812,
@@ -375,7 +375,7 @@ export default [
         x: 818.9861,
         y: -1026.2478,
         z: 25.4355545,
-        isBlip: true,
+        isBlip: false,
     },
     {
         x: 818.9861,
@@ -411,7 +411,7 @@ export default [
         x: 1186.391,
         y: -338.233246,
         z: 68.3563843,
-        isBlip: true,
+        isBlip: false,
     },
     {
         x: 1178.96326,
@@ -447,7 +447,7 @@ export default [
         x: 273.8386,
         y: -1268.63965,
         z: 28.2906,
-        isBlip: true,
+        isBlip: false,
     },
     {
         x: 273.8386,
@@ -501,7 +501,7 @@ export default [
         x: -314.921967,
         y: -1463.03857,
         z: 29.72625,
-        isBlip: true,
+        isBlip: false,
     },
     {
         x: -309.851532,
@@ -537,7 +537,7 @@ export default [
         x: 169.297256,
         y: -1562.267,
         z: 28.3290253,
-        isBlip: true,
+        isBlip: false,
     },
     {
         x: 176.020767,
@@ -561,7 +561,7 @@ export default [
         x: -80.17232,
         y: -1762.1438,
         z: 28.7989,
-        isBlip: true,
+        isBlip: false,
     },
     {
         x: -77.59275,
@@ -597,7 +597,7 @@ export default [
         x: -1435.50745,
         y: -284.6864,
         z: 45.4025955,
-        isBlip: true,
+        isBlip: false,
     },
     {
         x: -1429.07593,
@@ -621,7 +621,7 @@ export default [
         x: -732.6458,
         y: -939.321655,
         z: 18.21167,
-        isBlip: true,
+        isBlip: false,
     },
     {
         x: -732.6458,
@@ -657,7 +657,7 @@ export default [
         x: -532.2853,
         y: -1212.71875,
         z: 17.325386,
-        isBlip: true,
+        isBlip: false,
     },
     {
         x: -529.5171,
@@ -705,13 +705,13 @@ export default [
         x: -1628.736,
         y: -799.872559,
         z: 9.201332,
-        isBlip: true,
+        isBlip: false,
     },
     {
         x: -2088.08667,
         y: -321.035248,
         z: 12.1609182,
-        isBlip: true,
+        isBlip: false,
     },
     {
         x: -2087.21533,
@@ -765,19 +765,19 @@ export default [
         x: -764.885864,
         y: -1434.486,
         z: 4.035404,
-        isBlip: true,
+        isBlip: false,
     },
     {
         x: -705.2833,
         y: -1464.97791,
         z: 4.024448,
-        isBlip: true,
+        isBlip: false,
     },
     {
         x: -69.5380554,
         y: -2530.206,
         z: 5.150002,
-        isBlip: true,
+        isBlip: false,
     },
     {
         x: -63.46463,
