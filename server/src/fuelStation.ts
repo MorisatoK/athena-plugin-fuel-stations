@@ -73,7 +73,7 @@ export class FuelStationSystem {
         const closestVehicle = Athena.utility.vector.getClosestEntity<alt.Vehicle>(
             player.pos,
             player.rot,
-            alt.Vehicle.all,
+            [...alt.Vehicle.all],
             2,
             true,
         );
