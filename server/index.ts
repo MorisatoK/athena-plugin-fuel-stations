@@ -6,5 +6,5 @@ const PLUGIN_NAME = 'Athena Fuel Stations';
 
 PluginSystem.registerPlugin(PLUGIN_NAME, async () => {
     FuelStationSystem.init();
-    alt.log(`~lg~CORE ==> ${PLUGIN_NAME} was Loaded`);
+    alt.log(`~lg~${PLUGIN_NAME} was Loaded`);
 });
