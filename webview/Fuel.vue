@@ -44,8 +44,8 @@ import Button from '@components/Button.vue';
 import Toolbar from '@components/Toolbar.vue';
 import Frame from '@components/Frame.vue';
 import RangeInput from '@components/RangeInput.vue';
-import ResolvePath from '../../../../../src-webviews/src/utility/pathResolver';
-import { WebViewEventNames } from '../../../../../src/core/shared/enums/webViewEvents';
+import ResolvePath from '@utility/pathResolver';
+import { WebViewEventNames } from '@AthenaShared/enums/webViewEvents';
 
 export const ComponentName = 'Fuel';
 export default defineComponent({
